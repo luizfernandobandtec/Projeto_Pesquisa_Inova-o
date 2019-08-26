@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Empresa</title>
+
+    <style type="text/css">
+    body, 
+.menu,
+.sub-menu {
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.menu,
+.sub-menu {
+    list-style: none;
+    background: rgb(68, 0, 255);
+}
+.sub-menu {
+    background: rgb(17, 1, 163);
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.menu li {
+    position: relative;
+}
+.menu > li {
+    float: left;
+}
+.menu > li:hover {
+    background: rgb(29, 0, 194);
+}
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.sub-menu li:hover {
+    background: #555;
+}
+.sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+}
+    
+    </style>
+
+<style type="text/css">
+    #centralizar{
+        position:absolute;
+         top:4%; 
+         left:93%;
+         transform: translate(-50%, -50%);
+         }
+</style> 
+
+<style type="text/css">
+    .footer {
+    position:absolute;
+    bottom:0;
+    left: 47%;
+    width:20%;
+}
+</style>
+
+
+</head>
+<body>
+    
+    <div class="menu-container">
+        <ul class="menu clearfix">
+            <li><a href="#">Inicio</a></li>
+
+            <li><a href="#">Menu</a>
+                
+                <!-- submenu -->
+                <ul class="sub-menu clearfix">
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                </ul>
+            
+            </li>
+            
+            <li><a href="#">Quem Somos</a></li>
+            <li><a href="#">Menu</a></li>
+        </ul>
+    </div>
+
+    <h2 align="center"><FONT FACE="Arial" SIZE="6" COLOR="blue">Empresa</FONT></h2>
+    
+
+    <div id="centralizar">
+         <button>Cadastre-se</button>
+
+    </div>
+    
+    <BR><br><br><br><br><br>
+    <div style="padding:100px; margin-bottom: 50px; border-style:outset; background-color: gray" align="center">
+
+        CONTEUDO DO SITE
+    </div>
+    
+
+
+    <!-- rodapé -->
+    <div class="footer">
+        <p><b>&nbsp; &nbsp; <FONT FACE="Arial" SIZE="2" COLOR="black">Rodapé</FONT></b></p>
+        
+          <a href="#"><FONT FACE="Arial" SIZE="2" COLOR="black">Menu 1</FONT></a><br>
+          <a href="#"><FONT FACE="Arial" SIZE="2" COLOR="black">Menu 2</FONT></a><br>
+          <a href="#"><FONT FACE="Arial" SIZE="2" COLOR="black">Menu 3</FONT></a><br>
+          <a href="#"><FONT FACE="Arial" SIZE="2" COLOR="black">Menu 4</FONT></a><br>
+          
+
+        
+    </div>
+    
+
+    
+</body>
+</html>
